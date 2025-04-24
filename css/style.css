@@ -1,8 +1,5 @@
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 
     font-family: "National Park", sans-serif;
     font-optical-sizing: auto;
@@ -15,14 +12,24 @@ a {
     text-decoration: none;
 }
 
+.page-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 800px;
+    min-width: 600px;
+    width: 100%;
+}
 /* ------- Navbar styling ------- */
 #navbar {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: end;
     align-items: center;
     position: fixed;
+    min-width: 700px;
     width: 100vw;
     height: 80px;
     z-index: 1000;
