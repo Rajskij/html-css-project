@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(79, 79, 79);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------- Navbar styling ------- */
+#navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    z-index: 1000;
+
+    list-style-type: none;
+    background-image: url(https://images.pexels.com/photos/1752806/pexels-photo-1752806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+}
+
+#logo {
+    margin-right: auto;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 1em;
+    color: rgb(133, 78, 15);
+}
+
+#navbar .nav-el {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#navbar .nav-el:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#navbar a {
+    padding: 0 40px;
+    color: rgb(50, 50, 50);
+}
+
+#sign-in {
+    background-color: antiquewhite;
+}
+
+img {
+    width: 300px;
+}
+
+/* ------- Index body styling ------- */
+.search {
+    margin-top: 110px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    margin: 0 10px;
+    padding: 0 100px;
+}
+
+#fun-facts {
+    margin: 0 10px;
+}
+
+.footer-container {
+    margin-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* ------- Sign in styling ------- */
+#input-field {
+    margin: 150px auto 50px;
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+    border: 2px solid rgb(199, 199, 199);
+    background-color: rgb(227, 227, 227);
+    box-shadow: 10px 10px 10px grey;
+}
+
+#user-logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px grey;
+    position: absolute;
+    overflow: hidden;
+    left: 38%;
+    top: -15%;
+    z-index: 1200;
+}
+
+#head-circle {
+  width: 30px;
+  height: 30px;
+  background: #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 28%;
+}
+
+#body-circle {
+    width: 70px;
+    height: 70px;
+    background: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 65%;
+}
+
+#username, #password {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(201, 200, 200);
+    text-align: center;
+}
+
+#login {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(237, 194, 143);
+    border: none;   
+    color: rgb(70, 69, 69);
+}
+
+#forgot-password {
+    margin-top: 50px;
+    color: rgb(208, 150, 40);
+}
