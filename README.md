@@ -1,6 +1,6 @@
 # BeanDream Coffee Website
 
-**Live Demo:** <a href="https://exquisite-crepe-bd6279.netlify.app/" target="_blank">BeanDream Coffee Website</a>
+**Live Demo:** <a href="https://bean-dream-coffee.netlify.app/about" target="_blank">BeanDream Coffee Website</a>
 
 ## Key Features
 
